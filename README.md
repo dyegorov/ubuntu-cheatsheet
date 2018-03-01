@@ -1,6 +1,6 @@
 # ubuntu-cheat-sheet
 
-## PS with 
+## PS with git branch and new line
 ```
 $ cat ~/.bash_profile
 parse_git_branch() {
