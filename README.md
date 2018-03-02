@@ -1,4 +1,4 @@
-# ubuntu-cheat-sheet
+# ubuntu-cheatsheet
 
 ## PS with git branch and new line
 ```
