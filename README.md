@@ -8,6 +8,8 @@ parse_git_branch() {
 }
 export PS1="\[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\]\n$ "
 ```
+* Better move it to .bashrc to auto enable on terminal run from gui
+* [look here why](https://askubuntu.com/questions/121073/why-bash-profile-is-not-getting-sourced-when-opening-a-terminal)
 ## Update VS Code
 ```
 $ cat ~/update-code 
