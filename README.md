@@ -16,7 +16,6 @@ $ cat ~/update-code
 wget https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable -O /tmp/code_latest_amd64.deb
 sudo dpkg -i /tmp/code_latest_amd64.deb
 ```
-<<<<<<< HEAD
 ## Install local deb pkg with failed deps
 ```
 $ sudo dpkg -i mysql-workbench-community-6.2.5-1ubu1404-amd64.deb 
@@ -26,5 +25,3 @@ $ sudo apt-get update
 $ sudo apt-get install -f
 $ sudo dpkg -i mysql-workbench-community-6.2.5-1ubu1404-amd64.deb 
 ```
-=======
->>>>>>> 24db3c23ea5b6a360b8f1496c448c61b627faeb1
