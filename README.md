@@ -25,3 +25,8 @@ $ sudo apt-get update
 $ sudo apt-get install -f
 $ sudo dpkg -i mysql-workbench-community-6.2.5-1ubu1404-amd64.deb 
 ```
+## view free ram
+```
+watch -n 5 free -m
+```
+Note that Linux likes to use any extra memory to cache hard drive blocks. So you don't want to look at just the free Mem. You want to look at the free column of the -/+ buffers/cache: row. 
