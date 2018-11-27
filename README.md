@@ -31,6 +31,11 @@ watch -n 5 free -m
 ```
 Note that Linux likes to use any extra memory to cache hard drive blocks. So you don't want to look at just the free Mem. You want to look at the free column of the -/+ buffers/cache: row. 
 
+# view who listens ports
+```
+sudo netstat -ntlp | grep LISTEN
+```
+
 # mysql
 ## connect
 ```
