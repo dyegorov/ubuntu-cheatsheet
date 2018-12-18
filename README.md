@@ -36,6 +36,12 @@ Note that Linux likes to use any extra memory to cache hard drive blocks. So you
 sudo netstat -ntlp | grep LISTEN
 ```
 
+# search text in folder's files
+```
+$ grep -Ril 'polymer' /etc/nginx/sites-enabled/
+/etc/nginx/sites-enabled/mmtest3
+```
+
 # mysql
 ## connect
 ```
